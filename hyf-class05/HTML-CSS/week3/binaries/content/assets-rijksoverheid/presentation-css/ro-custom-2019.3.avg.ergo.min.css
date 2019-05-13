@@ -1,0 +1,35 @@
+@keyframes fadeInOverlay{0%{opacity:0}100%{opacity:1}}.ergoInteractionBar{width:100%;background-color:#a90061;position:fixed;z-index:99999}.ergoInteractionBar.bottomPosition{bottom:0px;margin:0 -15px 0 -15px;width:calc(100% + 30px)}.ergoInteractionBar.bottomPosition .wrapper{padding:0 30px 0 15px}@media (min-width: 992px){.ergoInteractionBar.bottomPosition .wrapper{padding:0}}.ergoInteractionBar.bottomPosition .wrapper .message.survey{margin-left:0;width:100%}@media (min-width: 992px){.ergoInteractionBar.bottomPosition .wrapper .message.survey{margin-left:16.666667%;width:66.66667%}.fullWidth .ergoInteractionBar.bottomPosition .wrapper .message.survey{margin-left:0%;width:100%}}.ergoInteractionBar.bottomPosition .wrapper .message.survey button.close{right:30px}.ergoInteractionBar .wrapper{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;max-width:1200px;position:relative}.ergoInteractionBar .wrapper:before,.ergoInteractionBar .wrapper:after{content:" ";display:table}.ergoInteractionBar .wrapper:after{clear:both}.ergoInteractionBar .wrapper:before,.ergoInteractionBar .wrapper:after{content:" ";display:table}.ergoInteractionBar .wrapper:after{clear:both}.ergoInteractionBar .wrapper .message.survey{background:transparent;padding:15px 0 0 0}.ergoInteractionBar .wrapper .message.survey p{color:#fff;margin-bottom:15px;width:calc(100% - 50px);font-size:1.125rem;clear:both}.ergoInteractionBar .wrapper .message.survey button{background-color:#f3f3f3;color:#01689b;padding:5px 15px 5px 15px;margin:0 15px 15px 0}.ergoInteractionBar .wrapper .message.survey button:hover{background-color:#e6e6e6}.ergoInteractionBar .wrapper .message.survey button.close{background-color:transparent;width:44px;height:44px;right:0px;margin:0}@media (min-width: 768px){.ergoInteractionBar .wrapper .message.survey button.close{right:15px}}.ergoInteractionBar .wrapper .message.survey button.close:before{right:15px;top:15px}.ergoSurvey{position:fixed !important;left:0px !important;top:0px !important;margin:0;padding:0;width:100%;height:100vh !important;z-index:9999;background-color:rgba(0,0,0,0.7);overflow-x:hidden;overflow-y:auto;opacity:0;animation:fadeInOverlay;animation-duration:.5s;animation-fill-mode:forwards;animation-timing-function:ease-in;animation-delay:0s}.ergoSurvey .container{width:100%;max-width:850px;margin:0px auto 0px auto;background:#f3f3f3;position:relative;padding:20px 20px 100px 20px;opacity:0;animation:fadeInOverlay;animation-duration:.5s;animation-fill-mode:forwards;animation-timing-function:ease-in;animation-delay:0.2s}@media (min-width: 768px){.ergoSurvey .container{padding:30px 30px 0px 30px;margin:30px auto 30px auto}}.ergoSurvey .container:before,.ergoSurvey .container:after{content:" ";display:table}.ergoSurvey .container:after{clear:both}.ergoSurvey .container form>p{font-weight:bold;font-size:1.11111em;margin:0 0 30px 0}.ergoSurvey .container form .form-group{margin:0 0 30px 0}.ergoSurvey .container form .form-group legend{position:relative !important;display:inline-block !important;overflow:hidden;clip:none;margin:0;padding:0;left:auto;width:auto;height:auto;float:none;font-weight:bold;margin:0 0 10px 0;font-size:1.11111em;line-height:1.375em}.ergoSurvey .container form .form-group label{top:0;left:0;margin:0;padding:0;width:auto;float:none;font-size:1em}.ergoSurvey .container form .form-group label.control-label{font-weight:bold;font-size:1.11111em;line-height:1.375em;margin:0 0 10px 0}.ergoSurvey .container form .form-group textarea{margin:0}.ergoSurvey .container form .form-group select{background:#fff}.ergoSurvey .container form .form-group .radio{position:relative;margin:0 0 10px 0}.ergoSurvey .container form .form-group .radio label{padding:0 0 0 25px;line-height:1.125em}.ergoSurvey .container form .form-group .radio input[type="radio"]{position:absolute;left:0px;top:0px;margin:0;color:#01689B}.ergoSurvey .container form .form-group .radio input[type="radio"]:checked{background-color:#b4b4b4}.ergoSurvey .container form .form-group .checkbox{position:relative;margin:0 0 10px 0}.ergoSurvey .container form .form-group .checkbox label{padding:0 0 0 25px;line-height:1.125em}.ergoSurvey .container form .form-group .checkbox input[type="checkbox"]{position:absolute;left:0px;top:1px;margin:0;color:#01689B}.ergoSurvey .container form .form-group .checkbox input[type="checkbox"]:checked{background-color:#b4b4b4}
+
+.twitter-tweet{
+    clear: left;
+}
+
+.article .form {
+    width: 100%;
+}
+fieldset[name="fieldGroup"] .collapsible{
+    height: auto;
+    transition: none;
+    max-height: 100%;
+}
+fieldset[name="fieldGroup"] .collapsible:focus{
+    outline: none;
+}
+fieldset[name="fieldGroup"] .collapsible.collapsed{
+    height: 0px;
+}
+fieldset[name="fieldGroup"] .eformText h2, fieldset[name="fieldGroup"] .eformText h3, fieldset[name="fieldGroup"] .eformText p{
+    margin-left: 15px;
+    word-break: break-word;
+}
+fieldset[name="fieldGroup"] .collapseButtons .textButton{
+    margin-left: 15px;
+}
+@media (min-width: 768px) {
+    fieldset[name="fieldGroup"] .eformText h2, fieldset[name="fieldGroup"] .eformText h3, fieldset[name="fieldGroup"] .eformText p{
+        margin-left: 20px;
+    }
+    fieldset[name="fieldGroup"] .collapseButtons .textButton{
+        margin-left: 20px;
+    }
+}

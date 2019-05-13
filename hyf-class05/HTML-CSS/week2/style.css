@@ -1,0 +1,61 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    background: linear-gradient(135deg, #b04, #f80) fixed;
+  }
+
+.grid-item {
+    width: 100%;
+  }
+
+  .grid-item img {
+    width: 100%;
+  }
+
+  @media(min-width: 1024px) {
+    #grid-flex {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    #grid-flex .grid-item {
+      width: 45%;
+      padding: 0 5px;
+    }
+
+    #grid-floats {
+      float: left;
+    }
+
+    #grid-floats .grid-item {
+      float: left;
+      width: 45%;
+      padding: 0 5px;
+    }
+
+
+  }
+
+  @media(min-width: 1280px) {
+
+
+    #grid-floats .grid-item,
+    #grid-flex .grid-item {
+      width: 30%;
+      padding: 0 5px;
+    }
+
+  }
+
+
+  @media(min-width: 1280px) {
+
+
+    #grid-floats .grid-item,
+    #grid-flex .grid-item {
+      width: 30%;
+      padding: 0 5px;
+    }
+
+  }

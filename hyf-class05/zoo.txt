@@ -1,0 +1,1 @@
+1-Horse, 2-Bull, 3-Giraffe, 4-Monkey, 5-Tiger

@@ -1,0 +1,2 @@
+add js commands and commit
+updates and solve the issue
